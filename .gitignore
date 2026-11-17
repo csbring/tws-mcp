@@ -1,0 +1,43 @@
+# Python environments and build products
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*
+*token.json
+.DS_Store
+
+# Local broker/account data, collection state and output
+data/
+historical_data/
+account_data/
+accounts/
+jobs/
+logs/
+*.log
+*.sqlite*
+*.db
+*.db-*
+*.csv
+*.parquet
+*.arrow
+*.feather
+*.pkl
+*.pickle
+*.jsonl
+*.tmp
